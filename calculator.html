@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./calculator.css" />
+    <link rel="stylesheet" href="./calculator_utils.css" />
+    <title>calculator app</title>
+  </head>
+  <body>
+    <div class="calc-body-main"></div>
+    <!-- main head of the simplke calculator start -->
+    <div class="cal-main-head col-white">
+      <div class="cal-inn-head text-cen text-cap">a simple calculator app</div>
+    </div>
+    <!-- main head of the simplke calculator end -->
+
+    <div class="cal-body">
+      <div class="cal-holder">
+        <div class="cal-input-holder text-cen">
+          <input type="text" name="claculator" class="cal-input" />
+        </div>
+        <div
+          class="cal-button-holder dis-flex jus-con-cen flex-col ali-item-cen"
+        >
+          <div class="cal-button-card">
+            <button class="cal-button">C</button>
+            <button class="cal-button">%</button>
+            <button class="cal-button">DE</button>
+            <button class="cal-button">√x</button>
+          </div>
+          <div class="cal-button-card">
+            <button class="cal-button">7</button>
+            <button class="cal-button">8</button>
+            <button class="cal-button">9</button>
+            <button class="cal-button">*</button>
+          </div>
+          <div class="cal-button-holder">
+            <button class="cal-button">4</button>
+            <button class="cal-button">5</button>
+            <button class="cal-button">6</button>
+            <button class="cal-button">+</button>
+          </div>
+          <div class="cal-button-holder">
+            <button class="cal-button">1</button>
+            <button class="cal-button">2</button>
+            <button class="cal-button">3</button>
+            <button class="cal-button">/</button>
+          </div>
+          <div class="cal-button-holder">
+            <button class="cal-button">0</button>
+            <button class="cal-button">.</button>
+            <button class="cal-button">=</button>
+            <button class="cal-button">-</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview-holder">
+      <div class="preview-head col-white">
+        Preview
+      </div>
+      <div class="preview-body col-white">
+<p>0</p>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>

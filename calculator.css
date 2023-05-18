@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+/* font-family: 'Oswald', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("./back1.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.preview-head , .preview-body{
+    padding: 20px 0px 20px 150px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.calc-body-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cal-inn-head{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.cal-input-holder{
+    padding: 20px 20px;
+
+}
+
+.cal-input{
+    width: 300px;
+    width: 300px;
+    font-size: 27px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-indent: 10px;
+}
+
+.cal-button{
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 5px 3px;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.cal-button:hover{
+    border: 2px solid rgb(204, 196, 196);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.text-cen{
+    text-align: center;
+}
+
+.text-cap{
+    text-transform: capitalize;
+}
+
+.dis-flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.jus-con-cen{
+    justify-content: center;
+}
+
+.ali-item-cen{
+ align-items: center;
+}
+
+.col-white{
+    color: white;
+}
+
+.col-black{
+    color: black;
+}
